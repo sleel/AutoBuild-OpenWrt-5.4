@@ -16,4 +16,4 @@ ZZZ="package/default-settings/files/zzz-default-settings"
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 sed -i "s/DESCRIPTION='OpenWrt'/DESCRIPTION='OpenWrt-SEELE'/g" $ZZZ
 sed -i "s/hostname='OpenWrt'/hostname='NERV'/g" ./package/base-files/files/bin/config_generate
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
